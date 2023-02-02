@@ -12,8 +12,8 @@ The dataset is available from `kaggle` website:
 
 You will also need the following:
 
-•[Python 3.x](https://www.python.org/downloads/)
-•[pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
+•[Python 3.x](https://www.python.org/downloads/)  
+•[pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)  
 •[Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 
 # Installation
@@ -22,14 +22,14 @@ This step by step guide will get you up-and-running on your local machine.
 
 1. Create and activate your virtual environment. I used [anaconda](https://www.anaconda.com/products/distribution) to create my virtual environment.  
 
-    `conda create -n <yourenvname> python=<x.x> anaconda`
+    `conda create -n <yourenvname> python=<x.x> anaconda`  
     `conda activate <yourenvname>`  
     
     **yourenvname** is your virtual environment name and **x.x** is your python version
 
 2. Install pandas library
 
-    `conda install pip`
+    `conda install pip`  
     `pip install pandas`  
 
 3. Open the notebooks in a code editor of your choice running on the virtual environment you just created.  

@@ -35,3 +35,41 @@ This step by step guide will get you up-and-running on your local machine.
 3. Open the notebooks in a code editor of your choice running on the virtual environment you just created.  
 
 # Pipeline
+
+A. Preprocessing  
+
+1. Clean raw dataset (fill-in empty or NaN values, remove some characters)  
+2. Transform `Price Range` column values  
+
+B. Best Restaurants  
+
+1. Filter dataset for highest Rating (5.0)  
+2. Create `Dashboard Review` column extracted from `Reviews` column  
+
+# Visuals
+
+### Primary Dashboard
+
+![Restaurants of Europe](image.jpg)  
+
+### Best Restaurants Dashboard
+
+![Best Restaurants](image.jpg)  
+
+# Timeline
+
+Project Start: 26 January 2023  
+Project End: 3 February 2023  
+
+# Next Steps
+
+•Refine dataset further by splitting values of columns with multiple entries/values per row (`Cuisine Style` and `Reviews`)  
+        - turn csv file into a database with separate tables for `Cuisine Style` and `Reviews` columns respectively  
+        - connect to main table via a unique id  
+        - use SQL join to generate tables with single entry/value for each column to use in Power BI dashboard  
+        
+•Use geocoding to identify latitude and longitude values for each restaurant and display a more accurate map in the dashboard  
+
+# Personal Situation  
+
+My name is [Marlon Tadeo](https://github.com/m9tadeo) and I am currently a Data Analyst trainee at BeCode Ghent. You can reach me at `m9tadeo@gmail.com`.

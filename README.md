@@ -50,11 +50,11 @@ B. Best Restaurants
 
 ### Primary Dashboard
 
-![Restaurants of Europe](image.jpg)  
+![Restaurants of Europe](https://github.com/m9tadeo/challenge-restaurant-dashboard/blob/main/assets/RoE.JPG)  
 
 ### Best Restaurants Dashboard
 
-![Best Restaurants](image.jpg)  
+![Best Restaurants](https://github.com/m9tadeo/challenge-restaurant-dashboard/blob/main/assets/BR.JPG)  
 
 # Timeline
 
@@ -69,6 +69,8 @@ Project End: 3 February 2023
         - use SQL join to generate tables with single entry/value for each column to use in Power BI dashboard  
         
 •Use geocoding to identify latitude and longitude values for each restaurant and display a more accurate map in the dashboard  
+
+•Determine a method to display default text in `Customer Review` visual panel when no restaurant is selected
 
 # Personal Situation  
 
